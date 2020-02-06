@@ -1,0 +1,256 @@
+
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+
+header {
+	width: 100%;
+	height: 5em;
+	background-color: #d9ad44;
+}
+
+.logo {
+	padding: 1em;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 25px;
+}
+
+ul {
+
+
+	margin-left: 40em;
+	display: flex;
+	list-style-type: none;
+	margin-top: -4em;
+	font-size: 13px;
+	font-family: 'Arimo', sans-serif;
+}
+
+li {
+	padding: 0.8em;
+}
+
+li:hover {
+	background-color: navajowhite;
+}
+
+.slider img {
+	width: 100%;
+	height: auto;
+	background-color: aqua;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: -1;
+}
+
+.boxcontent {
+
+	width: 20em;
+	height: 3em;
+	line-height: 3em;
+	text-align: center;
+	margin-left: 20em;
+	margin-top: -5em;
+	background-color: #d9ad44;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 18px;
+	border-radius: 5px;
+	
+}
+
+.midle{
+	
+	width: 15em;
+	height: 2em;
+	
+	background-color: #d9ad44;
+	font-family: 'Lalezar', cursive;
+	font-size: 15px;
+	margin-left: 28em;
+	margin-right: 30em;
+	text-align: center;
+	margin-top: 3em;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	line-height: -2PX;
+	border-radius: 3px;
+	text-transform: uppercase;
+   
+}
+
+.content{
+	width: 35em;
+	height: 2.5em;
+	text-align: center;
+	text-transform: capitalize;
+	margin-left: 15em;
+	font-family: sans-serif;
+	
+}
+
+.firstimg{
+	width: 300px;
+	height: 300px;
+	background-color: aqua;
+	display: flex;
+	margin-left: 20em;
+}
+
+.products{
+	width: 100%;
+	height: 15em;
+	display: flex;
+	padding: 3em;
+	
+	
+}
+
+.prod{
+	width: 20em;
+	height: 15em;
+	background-color: blue;
+	margin-left: 5em;
+	
+	
+}
+
+.aprod{
+	width: 20em;
+	height: 15em;
+	background-color: orange;
+	margin: auto;
+	margin-right: 11em;
+}
+
+.imgtitle{
+	width: 8em;
+	height: 2em;
+	background-color: #d9ad44;
+	margin-left: 12em;
+	text-align: center;
+	font-family: 'Lalezar',  cursive;
+	text-align: center;
+	border-radius: 4px;
+	
+}
+
+.aimgtitle{
+	width: 8em;
+	height: 2em;
+	background-color: #d9ad44;
+	margin-left: 21em;
+	text-align: center;
+	font-family: 'Lalezar',  cursive;
+	text-align: center;
+	border-radius: 4px;
+	
+}
+
+
+.wallet{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	line-height: 1px;
+}
+
+.offer{
+	width: 100%;
+	height: 275px;
+	background-color: #d9ad44;
+	text-align: center;
+	font-family: 'Lalezar', cursive;
+	font-size: 2em;
+	margin:auto;
+    
+}
+
+.ordernow{
+	width: 200px;
+	height: 40px;
+	margin: auto;
+	margin-bottom: 20px;
+	background-color: antiquewhite;
+	
+	border-radius: 5px;
+}
+
+footer{
+    background-color: #d9ad44;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+   
+    
+  
+}
+
+
+.cont_area{
+    
+    width: 210px;
+    height: 150px;
+    
+    text-align: left;
+    margin: auto;
+        
+    font-size: 17px;
+    font-family:sans-serif;
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+
+.point{
+    margin-left: 10px;
+}
+
+.social{
+    margin-left: 50px;
+}
+
+
+.fab{
+    margin: auto;    
+}
+
+
+.contactus{
+    width: 170px;
+    height: 40px;
+    background-color: greenyellow;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 2.5;
+    margin: auto;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.balckline{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+   
+}
+
+
+/*media query*/
+
+@media only screen and (max-width:960px) {
+
+	header {
+
+		background-color: greenyellow;
+	}
+
+}
+
+/*	End media query*/
